@@ -1,0 +1,95 @@
+    body {
+		color: #111111;
+        background: #111111;
+        background:#111111 none repeat scroll 0% 0%;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size-adjust:none;
+        font-stretch:normal;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        letter-spacing:0px;
+        line-height:normal;
+        margin:0px 0px 0px 0px;
+    }
+
+	a:visited {
+		color: #111111;
+	}
+
+    .subject {
+        font-size:125px;
+        font-weight:bold;
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: -2px;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+
+    .statusInWords {
+        font-size:50px;
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        text-decoration: none;
+        padding-left: 25px;
+    }
+
+    #statuses {
+        left:0pt;
+        position:absolute;
+        top:0px;
+        width:100%;
+        z-index:99;
+    }
+
+    .statusDetails {
+        font-size:50px;
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        text-decoration: none;
+        padding-left: 25px;
+    }
+
+    div.status {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		border-bottom: 4px dotted #333333;
+    }
+
+    .small {
+        font-size:45px;
+	}
+	
+	div.small {
+		float:left;
+		border-right: 4px dotted #333333;
+		padding: 30px 20px 20px 0px;
+	}
+
+    abbr {
+        border-bottom:none;
+    }
+    .success {
+        color: #00AA00;
+    }
+    .success .subject {
+        color: #00FF00;
+    }
+    .success .statusDetails {
+        color: #F5B800;
+    }
+    .failure {
+        color: #AA0000;
+    }
+    .failure a {
+        color: #FF0000;
+    }
+    .failure .statusDetails {
+        color: #F5B800;
+    }
+    .building {
+		text-decoration: blink;
+    }
+
+    .logo {
+    }
